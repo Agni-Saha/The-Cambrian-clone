@@ -1,3 +1,13 @@
+# Basic Details
+
+I created this website simply because I was fascinated by the original one made by the Positioner featured at AWWWARDS.
+This is not yet responsive, I'm still working on it. Mainly used the grid technique and TailwindCSS for the layout.
+
+## [Original Link](https://thecambrianadelboden.com/)
+
+## [Positioner AWWWARDS link](https://www.awwwards.com/positioner/)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
