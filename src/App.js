@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import "./App.css"
+import "./Swiper.css"
+// eslint-disable-next-line
+import "swiper/css/bundle";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Banner from './components/Banner'
+import Details from './components/Details'
+import Featured from './components/Featured'
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
+
+export default function App() {
+    return (
+        <div className='bg-black text-white'>
+            <Navbar />
+            <Banner />
+            <Details />
+            <Featured />
+            <Footer />
+        </div>
+    )
 }
-
-export default App;
